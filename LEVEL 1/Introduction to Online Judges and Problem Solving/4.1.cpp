@@ -19,7 +19,7 @@ void solve()
         for(int i=1;i<n/2;i++){
             cout<<2*i-1<<' ';//Printing odd numbers
         }
-        cout<<3*(n/2)-1<<'\n';//Very very important,For last odd digit,2*(n/2)-(n/2)
+        cout<<3*(n/2)-1<<'\n';//Very very important,For last odd digit,2*(n/2)-1+(n/2)
     }
 
 }
