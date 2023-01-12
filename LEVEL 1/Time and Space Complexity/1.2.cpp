@@ -8,8 +8,8 @@ int main()
     int a;
     int b;
     int count=0;
-    for(int a=0;a<100;a++){
-        for(int b=0;b<100;b++)
+    for(int a=0;a<100;a++){//a<n
+        for(int b=0;b<100;b++)//b<m
         if(a*a+b==n && a+b*b==m){
             // cout<<"("<<a<<","<<b<<")"<<endl;
             count++;
